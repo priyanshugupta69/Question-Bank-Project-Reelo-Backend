@@ -4,7 +4,7 @@ const heap = require('heap');
 
 //question bank import
 const JSONquestions  = require('./questions.json');
-const questions = JSONquestions.questionBank2
+const questions = JSONquestions.questionBank1
 
 //givenparameters
 const totalMark = 100;
@@ -87,9 +87,12 @@ function getQuestionPaper(totalMark , PercentDIf){
     questionPaper.push(...getDifList(totEasyMarks, reqEasyMarks , 'Easy'));
     questionPaper.push(...getDifList(totMedMarks, reqMedMarks, 'Medium' ));
     questionPaper.push(...getDifList(totHardMarks, reqHardMarks , 'Hard')); 
-    console.log(questionPaper);
+    return questionPaper
 }
-getQuestionPaper(totalMark, PercentDIf);
+
+
+const questionPaper = getQuestionPaper(totalMark, PercentDIf);
+console.log(questionPaper)
 
 
 app.listen(3000, () => console.log('listening at 3000'));

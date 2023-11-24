@@ -101,14 +101,14 @@
         {
           "question": "Question 15: What is the function of the mitochondria?",
           "difficulty": "Medium",
-          "mark": 60,
+          "mark": 30,
           "subject": "Biology",
           "topic": "Cell Biology"
         },
         {
           "question": "Question 16: When did the Industrial Revolution begin?",
           "difficulty": "Hard",
-          "mark": 75,
+          "mark": 40,
           "subject": "History",
           "topic": "Industrial Revolution"
         },
