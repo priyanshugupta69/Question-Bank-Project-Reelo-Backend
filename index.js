@@ -20,13 +20,21 @@ function getDifList(totMarks, reqMarks , dif){
     let map = {};
     const questionList = [];
     const minMarks = new heap((a,b)=> a -b);
+
+    //creating list of questions of a particular difficulty
     const QuesListAccToDif = questions.filter((question) => question.difficulty == dif);
+
+    //creating list of minimum marks
     QuesListAccToDif.forEach(element => {
         minMarks.push(element.mark);
     });
+
+    //if total marks of a particular difficulty is less than required marks then return the list of questions of that difficulty
     if(totMarks < reqMarks){
         return QuesListAccToDif;
     }
+
+    //populating question list with rand question from questionListAccToDif
     while(true){
         const random = Math.floor(Math.random() * QuesListAccToDif.length);
         if(map[random]) continue
