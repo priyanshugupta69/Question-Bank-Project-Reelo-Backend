@@ -1,0 +1,287 @@
+{
+    "questionBank1" : [
+        {
+          "question": "Question 1: What is the capital of France?",
+          "difficulty": "Medium",
+          "mark": 45,
+          "subject": "Geography",
+          "topic": "World Capitals"
+        },
+        {
+          "question": "Question 2: Who wrote Romeo and Juliet?",
+          "difficulty": "Hard",
+          "mark": 72,
+          "subject": "Literature",
+          "topic": "Shakespearean Plays"
+        },
+        {
+          "question": "Question 3: What is the powerhouse of the cell?",
+          "difficulty": "Easy",
+          "mark": 30,
+          "subject": "Biology",
+          "topic": "Cell Biology"
+        },
+        {
+          "question": "Question 4: In which year did World War I begin?",
+          "difficulty": "Medium",
+          "mark": 60,
+          "subject": "History",
+          "topic": "World Wars"
+        },
+        {
+          "question": "Question 5: What is the formula for calculating the area of a circle?",
+          "difficulty": "Hard",
+          "mark": 85,
+          "subject": "Mathematics",
+          "topic": "Geometry"
+        },
+        {
+          "question": "Question 6: Who is known as the 'Father of Modern Physics'?",
+          "difficulty": "Medium",
+          "mark": 55,
+          "subject": "Physics",
+          "topic": "Scientific Discoveries"
+        },
+        {
+          "question": "Question 7: What is the largest planet in our solar system?",
+          "difficulty": "Easy",
+          "mark": 40,
+          "subject": "Astronomy",
+          "topic": "Planets"
+        },
+        {
+          "question": "Question 8: Which novel features a character named Atticus Finch?",
+          "difficulty": "Hard",
+          "mark": 78,
+          "subject": "Literature",
+          "topic": "Classic Novels"
+        },
+        {
+          "question": "Question 9: What is the process of photosynthesis?",
+          "difficulty": "Medium",
+          "mark": 65,
+          "subject": "Biology",
+          "topic": "Photosynthesis"
+        },
+        {
+          "question": "Question 10: Who was the first President of the United States?",
+          "difficulty": "Easy",
+          "mark": 50,
+          "subject": "History",
+          "topic": "Presidents"
+        },
+        {
+          "question": "Question 11: What is Pythagoras' theorem?",
+          "difficulty": "Hard",
+          "mark": 90,
+          "subject": "Mathematics",
+          "topic": "Geometry"
+        },
+        {
+          "question": "Question 12: What is the law of gravity?",
+          "difficulty": "Medium",
+          "mark": 55,
+          "subject": "Physics",
+          "topic": "Gravity"
+        },
+        {
+          "question": "Question 13: What is the currency of Japan?",
+          "difficulty": "Easy",
+          "mark": 35,
+          "subject": "Geography",
+          "topic": "Currencies"
+        },
+        {
+          "question": "Question 14: Who wrote the play 'Hamlet'?",
+          "difficulty": "Hard",
+          "mark": 80,
+          "subject": "Literature",
+          "topic": "Shakespearean Plays"
+        },
+        {
+          "question": "Question 15: What is the function of the mitochondria?",
+          "difficulty": "Medium",
+          "mark": 60,
+          "subject": "Biology",
+          "topic": "Cell Biology"
+        },
+        {
+          "question": "Question 16: When did the Industrial Revolution begin?",
+          "difficulty": "Hard",
+          "mark": 75,
+          "subject": "History",
+          "topic": "Industrial Revolution"
+        },
+        {
+          "question": "Question 17: What is the value of pi (π)?",
+          "difficulty": "Medium",
+          "mark": 58,
+          "subject": "Mathematics",
+          "topic": "Geometry"
+        },
+        {
+          "question": "Question 18: Who discovered the law of motion?",
+          "difficulty": "Easy",
+          "mark": 42,
+          "subject": "Physics",
+          "topic": "Laws of Motion"
+        },
+        {
+          "question": "Question 19: What is the longest river in the world?",
+          "difficulty": "Medium",
+          "mark": 63,
+          "subject": "Geography",
+          "topic": "Rivers"
+        },
+        {
+          "question": "Question 20: Who wrote '1984'?",
+          "difficulty": "Hard",
+          "mark": 88,
+          "subject": "Literature",
+          "topic": "Modern Classics"
+        }
+      ],
+      "questionBank2" : [
+        {
+          "question": "Question 1: What is the capital of France?",
+          "difficulty": "Medium",
+          "mark": 10,
+          "subject": "Geography",
+          "topic": "World Capitals"
+        },
+        {
+          "question": "Question 2: Who wrote Romeo and Juliet?",
+          "difficulty": "Hard",
+          "mark": 10,
+          "subject": "Literature",
+          "topic": "Shakespearean Plays"
+        },
+        {
+          "question": "Question 3: What is the powerhouse of the cell?",
+          "difficulty": "Easy",
+          "mark": 10,
+          "subject": "Biology",
+          "topic": "Cell Biology"
+        },
+        {
+          "question": "Question 4: In which year did World War I begin?",
+          "difficulty": "Medium",
+          "mark": 10,
+          "subject": "History",
+          "topic": "World Wars"
+        },
+        {
+          "question": "Question 5: What is the formula for calculating the area of a circle?",
+          "difficulty": "Hard",
+          "mark": 10,
+          "subject": "Mathematics",
+          "topic": "Geometry"
+        },
+        {
+          "question": "Question 6: Who is known as the 'Father of Modern Physics'?",
+          "difficulty": "Medium",
+          "mark": 10,
+          "subject": "Physics",
+          "topic": "Scientific Discoveries"
+        },
+        {
+          "question": "Question 7: What is the largest planet in our solar system?",
+          "difficulty": "Easy",
+          "mark": 10,
+          "subject": "Astronomy",
+          "topic": "Planets"
+        },
+        {
+          "question": "Question 8: Which novel features a character named Atticus Finch?",
+          "difficulty": "Hard",
+          "mark": 10,
+          "subject": "Literature",
+          "topic": "Classic Novels"
+        },
+        {
+          "question": "Question 9: What is the process of photosynthesis?",
+          "difficulty": "Medium",
+          "mark": 10,
+          "subject": "Biology",
+          "topic": "Photosynthesis"
+        },
+        {
+          "question": "Question 10: Who was the first President of the United States?",
+          "difficulty": "Easy",
+          "mark": 10,
+          "subject": "History",
+          "topic": "Presidents"
+        },
+        {
+          "question": "Question 11: What is Pythagoras' theorem?",
+          "difficulty": "Hard",
+          "mark": 10,
+          "subject": "Mathematics",
+          "topic": "Geometry"
+        },
+        {
+          "question": "Question 12: What is the law of gravity?",
+          "difficulty": "Medium",
+          "mark": 10,
+          "subject": "Physics",
+          "topic": "Gravity"
+        },
+        {
+          "question": "Question 13: What is the currency of Japan?",
+          "difficulty": "Easy",
+          "mark": 10,
+          "subject": "Geography",
+          "topic": "Currencies"
+        },
+        {
+          "question": "Question 14: Who wrote the play 'Hamlet'?",
+          "difficulty": "Hard",
+          "mark": 10,
+          "subject": "Literature",
+          "topic": "Shakespearean Plays"
+        },
+        {
+          "question": "Question 15: What is the function of the mitochondria?",
+          "difficulty": "Medium",
+          "mark": 10,
+          "subject": "Biology",
+          "topic": "Cell Biology"
+        },
+        {
+          "question": "Question 16: When did the Industrial Revolution begin?",
+          "difficulty": "Hard",
+          "mark": 10,
+          "subject": "History",
+          "topic": "Industrial Revolution"
+        },
+        {
+          "question": "Question 17: What is the value of pi (π)?",
+          "difficulty": "Medium",
+          "mark": 10,
+          "subject": "Mathematics",
+          "topic": "Geometry"
+        },
+        {
+          "question": "Question 18: Who discovered the law of motion?",
+          "difficulty": "Easy",
+          "mark": 10,
+          "subject": "Physics",
+          "topic": "Laws of Motion"
+        },
+        {
+          "question": "Question 19: What is the longest river in the world?",
+          "difficulty": "Medium",
+          "mark": 10,
+          "subject": "Geography",
+          "topic": "Rivers"
+        },
+        {
+          "question": "Question 20: Who wrote '1984'?",
+          "difficulty": "Hard",
+          "mark": 10,
+          "subject": "Literature",
+          "topic": "Modern Classics"
+        }
+      ]
+    
+}
