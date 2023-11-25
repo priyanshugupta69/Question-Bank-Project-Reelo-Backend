@@ -1,19 +1,11 @@
 const express = require('express');
 const app = express();
 const heap = require('heap');
+const bodyParser = require('body-parser');
 
 //question bank import
 const JSONquestions  = require('./questions.json');
-const questions = JSONquestions.questionBank1
-
-//givenparameters
-const totalMark = 100;
-const PercentDIf = {
-    Easy: 30,
-    Medium: 30,
-    Hard: 40
-};
-
+const questions = JSONquestions.questionBank2
 
 //function to create list of questions picked up randomly difficulty wise
 function getDifList(totMarks, reqMarks , dif){
@@ -91,6 +83,15 @@ function getQuestionPaper(totalMark , PercentDIf){
 }
 
 app.get("/api/getQuestionPaper" , (req,res)=>{
+    const totalMark = req.query.totalMark || 100;
+    const easy = req.query.easy || 30;
+    const medium = req.query.medium || 30;
+    const hard = req.query.hard || 40;
+    const PercentDIf = {
+        Easy: easy,
+        Medium: medium,
+        Hard: hard
+    };
     const questionPaper = getQuestionPaper(totalMark, PercentDIf);
     console.log(questionPaper)
     res.json(questionPaper)
