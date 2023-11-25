@@ -17,3 +17,11 @@ Repalce {} with actual parameters
 6: Qeustions will be random everytime you send the reqeust
 
 Question banks are stored in seprate JSON file you can change it by sepecifying it in the code
+
+--The server is also deployed on render so you can directly make get requests to this url "https://reelobackend-lf4r.onrender.com/api/getQuestionPaper" with the query params defined above.
+
+--I have also created a little frontend for this project 
+  here's the link : https://bucolic-cheesecake-732a6b.netlify.app/ 
+
+
+Thankyou for the opportunity :)
