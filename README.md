@@ -9,9 +9,9 @@ Steps to run this project on a local machine:
 
 3: Start the server with "npm start" or "nodemon index.js".
 
-4: Open the PostMan app and make a get request with the following API end point: "http://localhost:3000/api/getQuestionPaper?totalMark=<totalMark>&easy=<PercentDIfForEasy>&medium=<PercentDIfForMedium>&hard=
-<PercentDIfForHard>"
-Repalce <> with actual parameters
+4: Open the PostMan app and make a get request with the following API end point: "http://localhost:3000/api/getQuestionPaper?totalMark={totalMark}&easy={PercentDIfForEasy}&medium={PercentDIfForMedium}&hard=
+{PercentDIfForHard}"
+Repalce {} with actual parameters
 
 5: Response will be the questions which best fit the given parameters
 
