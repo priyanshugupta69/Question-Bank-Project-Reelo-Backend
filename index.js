@@ -90,9 +90,14 @@ function getQuestionPaper(totalMark , PercentDIf){
     return questionPaper
 }
 
+app.get("/api/getQuestionPaper" , (req,res)=>{
+    const questionPaper = getQuestionPaper(totalMark, PercentDIf);
+    console.log(questionPaper)
+    res.json(questionPaper)
+    
 
-const questionPaper = getQuestionPaper(totalMark, PercentDIf);
-console.log(questionPaper)
+})
+
 
 
 app.listen(3000, () => console.log('listening at 3000'));
